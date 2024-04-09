@@ -50,7 +50,7 @@ Now, I have come to this lesson in the curriculum. I have Windows 10 installed a
 
 ![Before allocation](Screenshot1098_cr.png "Before allocation")
 
-![After allocation - Unallocated space](Screenshot1098_cr.png "After allocation - Unallocated space")
+![After allocation - Unallocated space](Screenshot1102_cr.png "After allocation - Unallocated space")
 
 I plan to install all three partitions on the SSD of the C drive in the same way as in the test version.
 
