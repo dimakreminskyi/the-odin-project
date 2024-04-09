@@ -36,6 +36,8 @@ I tried a couple of times to go a step back and recreate the partitions (steps i
 Therefore, I created a logical part for a "swap", THEN a logical part for "home", and left the rest of the space for the "root". That is, I completed steps 1-3-2, if compared with the sequence in the article.
 
 As a result, the partition distribution was as shown in the screenshot.
+![Partition scheme after successful test dual-boot installation](Ubuntu-partitions-2024-03-27_07-05-46.png "Partition scheme after successful test dual-boot installation")
+
 
 Even though I had some errors during the Ubuntu installation process (I don't recollect exactly what those were but I think something with uefi -- I skipped them), the OS was installed successfully.
 
