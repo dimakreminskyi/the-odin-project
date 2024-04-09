@@ -15,6 +15,8 @@ Ubuntu/Windows Dual-Boot is my only option because virtualization is not support
 
 I tried the last two options (VB & WSL2) in the past, and before this  dual-boot testing I tried Virtual Box again along with the Virtual Machine section. On step 2.2.4 I got an error, and after checking BIOS I ensured I don't have Virtualization supported.
 
+![](Screenshot1105.png "A Link in the lesson is incorrect")
+
 My machine is:
 - Processor: Pentium(R) Dual-Core CPU E5200 2.50GHz
 - RAM: 8.00 GB
@@ -36,6 +38,7 @@ I tried a couple of times to go a step back and recreate the partitions (steps i
 Therefore, I created a logical part for a "swap", THEN a logical part for "home", and left the rest of the space for the "root". That is, I completed steps 1-3-2, if compared with the sequence in the article.
 
 As a result, the partition distribution was as shown in the screenshot.
+
 ![Partition scheme after successful test dual-boot installation](Ubuntu-partitions-2024-03-27_07-05-46.png "Partition scheme after successful test dual-boot installation")
 
 
@@ -45,6 +48,10 @@ Everything worked, at least I didn't encounter any problems. At boot there was a
 
 Now, I have come to this lesson in the curriculum. I have Windows 10 installed and configured, and the unallocated space on the C drive is prepared.
 
+![Before allocation](Screenshot1098_cr.png "Before allocation")
+
+![After allocation - Unallocated space](Screenshot1098_cr.png "After allocation - Unallocated space")
+
 I plan to install all three partitions on the SSD of the C drive in the same way as in the test version.
 
 I expect the same sequence of creation partition as mentioned in the article on Medium. But my test showed a bit of another result, so I wonder if it is a big deal.
@@ -52,3 +59,7 @@ I expect the same sequence of creation partition as mentioned in the article on 
 If I have such a situation again with the fact that after assigning the root partition, the remaining space becomes unavailable for the “home” partition to allocate, is it possible to change the sequence replacing steps 2 and 3?
 
 Additional screenshots for reference if it helps:
+
+![Windows boot BIOS](Screenshot1099_cr.png "Windows boot BIOS")
+
+![Installation flashdrive creation](Screenshot1100_cr.png "Installation flashdrive creation")
